@@ -1,0 +1,230 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>TailwindCSS LandingPage</title>
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@24,400,0,0&icon_names=page_control"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200&icon_names=mail"
+    />
+    <link rel="stylesheet" href="style.css" />
+    <script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>
+  </head>
+
+  <body class="bg-gray-200 p-3 text-zinc-900">
+    <nav class="bg-zinc-100 mx-20 p-3 flex rounded-sm">
+      <div class="text-violet-600 content-center">
+        <svg
+          xmlns="http://www.w3.org/2000/svg"
+          fill="none"
+          viewBox="0 0 24 24"
+          stroke-width="1.5"
+          stroke="currentColor"
+          class="size-6"
+        >
+          <path
+            stroke-linecap="round"
+            stroke-linejoin="round"
+            d="M15.59 14.37a6 6 0 0 1-5.84 7.38v-4.8m5.84-2.58a14.98 14.98 0 0 0 6.16-12.12A14.98 14.98 0 0 0 9.631 8.41m5.96 5.96a14.926 14.926 0 0 1-5.841 2.58m-.119-8.54a6 6 0 0 0-7.381 5.84h4.8m2.581-5.84a14.927 14.927 0 0 0-2.58 5.84m2.699 2.7c-.103.021-.207.041-.311.06a15.09 15.09 0 0 1-2.448-2.448 14.9 14.9 0 0 1 .06-.312m-2.24 2.39a4.493 4.493 0 0 0-1.757 4.306 4.493 4.493 0 0 0 4.306-1.758M16.5 9a1.5 1.5 0 1 1-3 0 1.5 1.5 0 0 1 3 0Z"
+          />
+        </svg>
+      </div>
+      <div class="grow"></div>
+      <div class="flex gap-3">
+        <ul class="flex gap-3 items-center">
+          <li><a href="#">Link</a></li>
+          <li><a href="#">Link</a></li>
+          <li><a href="#">Link</a></li>
+        </ul>
+        <button class="bg-violet-600 rounded-sm py-1 px-4 text-zinc-50">
+          Sign Up
+        </button>
+      </div>
+    </nav>
+    <main class="mx-20">
+      <section class="grid grid-cols-12 mt-10 gap-4">
+        <div
+          class="col-span-5 flex flex-col text-center gap-3 bg-zinc-100 rounded-sm p-13 pb-30"
+        >
+          <h4 class="text-sm text-violet-600">Mamba design system</h4>
+          <h1 class="text-4xl font-bold mb-5">
+            Build it with <br />
+            Mamba
+          </h1>
+          <h4 class="text-sm mb-5">
+            <span class="font-medium">Modular and versatile.</span>The ultimate
+            design toolkit for savvy technology startups.
+          </h4>
+          <input
+            class="bg-zinc-50 rounded-sm p-1 text-sm focus:outline-none"
+            type="text"
+            placeholder="Your name"
+          />
+          <input
+            class="bg-zinc-50 rounded-sm p-1 text-sm focus:outline-none"
+            type="email"
+            placeholder="Email address"
+          />
+          <button class="bg-violet-600 rounded-sm py-1 px-auto text-zinc-50">
+            Join the waitlist
+          </button>
+        </div>
+        <div
+          class="col-span-7 bg-zinc-100 rounded-sm bg-[url(https://cdn.pixabay.com/photo/2019/10/07/10/39/office-4532318_1280.jpg)]"
+        ></div>
+      </section>
+      <!-- Section 2-->
+      <section class="mt-10 flex flex-col">
+        <h4 class="uppercase text-violet-600 text-xs font-medium text-center">
+          how it works
+        </h4>
+        <h2 class="text-3xl font-bold text-center">
+          Building with Mamba is simple
+        </h2>
+        <div class="flex gap-3 mt-10">
+          <div
+            class="font-medium bg-zinc-100 rounded-sm p-5 flex flex-col w-1/3"
+          >
+            <span
+              class="bg-violet-600 rounded-full py-2 w-8 font-bold text-center text-zinc-50 text-xs mb-3"
+              >1</span
+            ><span class="font-bold">Nulla.</span>Nostrum, corrupti blanditiis.
+            Illum, architecto?
+          </div>
+          <div
+            class="font-medium bg-zinc-100 rounded-sm p-5 flex flex-col w-1/3"
+          >
+            <span
+              class="bg-violet-600 rounded-full py-2 w-8 font-bold text-center text-zinc-50 text-xs mb-3"
+              >2</span
+            ><span class="font-bold">Accusantium.</span> Vitae saepe atque neque
+            sunt eius dolor veniam alias debitis?
+          </div>
+          <div
+            class="font-medium bg-zinc-100 rounded-sm p-5 flex flex-col w-1/3"
+          >
+            <span
+              class="bg-violet-600 rounded-full py-2 w-8 font-bold text-center text-zinc-50 text-xs mb-3"
+              >3</span
+            ><span class="font-bold">Maxime.</span>Expedita temporibus culpa
+            reprehenderit doloribus consectetur odio!
+          </div>
+        </div>
+      </section>
+      <!-- Section 3-->
+      <section class="mt-10 gap-4 grid grid-cols-12">
+        <div
+          class="rounded-sm col-span-6 bg-linear-to-bl from-neutral-900 to-violet-600"
+        ></div>
+        <div
+          class="col-span-6 flex flex-col bg-zinc-100 rounded-sm text-center items-center p-10"
+        >
+          <img
+            class="rounded-full w-20 h-20"
+            src="https://images.pexels.com/photos/546819/pexels-photo-546819.jpeg"
+            alt="profile-img"
+          />
+          <q class="mt-7 mb-6 font-medium"
+            >Et, dignissimos obcaecati. Recusandae praesentium doloribus vitae?
+            Rem unde atque mollitia!</q
+          >
+          <p class="text-xs mt-4 text-zinc-400">
+            Leroy Jenkins <br />
+            CEO of Company Co.
+          </p>
+          <span class="mt-4 material-symbols-outlined"> page_control </span>
+        </div>
+      </section>
+      <!-- Section 4-->
+      <section class="mt-10 grid grid-cols-12 grid-rows-12">
+        <div class="row-span-4 col-span-12 bg-zinc-100 rounded-sm p-5">
+          <h4 class="text-3xl font-bold">Create with us</h4>
+          <p class="text-xs text-zinc-500 mt-4 mb-4">
+            Lorem ipsum dolor sit amet consectetur, adipisicing elit. Nesciunt
+            facilis quod accusantium beatae cum nam adipisci reiciendis omnis
+            possimus error quo animi voluptas magni, at incidunt. Nulla ex at
+            ullam corporis quidem adipisci vitae, perferendis dolorem libero
+            minus atque tenetur enim pariatur cupiditate commodi in beatae, ipsa
+            eligendi? Quis, saepe.
+          </p>
+        </div>
+        <div
+          class="row-span-6 col-span-7 mt-10 bg-zinc-100 rounded-sm bg-[url(https://images.pexels.com/photos/310435/pexels-photo-310435.jpeg)] bg-cover"
+        ></div>
+        <div
+          class="row-span-6 col-span-5 mt-10 bg-zinc-100 rounded-sm p-5 inline-flex flex-col"
+        >
+          <button
+            class="bg-violet-600 rounded-full py-1 px-2 text-zinc-50 w-20 text-xs"
+          >
+            Business
+          </button>
+          <h5 class="text-xl font-bold mt-3 mb-20">
+            Curating a workplace that <br />inspires team movement
+          </h5>
+          <p class="text-xs text-zinc-400 mt-auto">
+            November 30, 2020 <br />
+            By Leroy Jenkins
+          </p>
+        </div>
+        <div class="row-span-2 col-span-12 mt-4 flex gap-4 text-sm">
+          <p class="p-8 flex-1 bg-zinc-100 rounded-sm">
+            <span class="font-bold">Panel-based blocks.</span> Flexible panels
+            that are perfect for building functional layouts.
+          </p>
+          <p class="p-8 flex-1 bg-zinc-100 rounded-sm">
+            <span class="font-bold">Responsive design.</span> Panels look great
+            no matter the device.
+          </p>
+          <p class="p-8 flex-1 bg-zinc-100 rounded-sm">
+            <span class="font-bold">Premium support.</span> Join over 50 000
+            satisfied customers who use our templates.
+          </p>
+        </div>
+      </section>
+    </main>
+    <footer class="mx-20 mt-10">
+      <div class="bg-zinc-100 p-7 text-center rounded-sm">
+        <h2 class="font-bold text-3xl mt-6">Our team is here to help you.</h2>
+        <p class="font-medium text-xs mt-3 mb-8">Meet our crew ></p>
+        <img
+          class="w-full h-80 object-cover rounded-sm mb-6"
+          src="https://images.pexels.com/photos/3182812/pexels-photo-3182812.jpeg"
+          alt="team-photo"
+        />
+      </div>
+      <div class="bg-zinc-100 p-4 mt-10 text-center rounded-sm flex items-end">
+        <small class="font-bold">Mamba</small>
+        <div class="grow"></div>
+        <ul class="flex gap-2 items-center">
+          <li>
+            <img
+              class="w-4 h-4"
+              src="https://img.icons8.com/?size=100&id=53435&format=png&color=000000"
+              alt="mail-icon"
+            />
+          </li>
+          <li>
+            <img
+              class="w-4 h-4"
+              src="https://img.icons8.com/?size=100&id=fJp7hepMryiw&format=png&color=000000"
+              alt="twitter-icon"
+            />
+          </li>
+          <li>
+            <img
+              class="w-4 h-4"
+              src="https://img.icons8.com/?size=100&id=62856&format=png&color=000000"
+              alt="github-icon"
+            />
+          </li>
+        </ul>
+      </div>
+    </footer>
+  </body>
+</html>
