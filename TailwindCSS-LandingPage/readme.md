@@ -1,7 +1,7 @@
 # TailwindCSS LandingPage
 
 Bu proje eğitim amaçlı oluşturulmuştur
-Projeyi incelemek için [Tıklayın]()
+Projeyi incelemek için [Tıklayın](https://nefiinef.github.io/hafta-4/TailwindCSS-LandingPage/)
 
 ## Özellikler
 * Sayfa yapısı için semantik HTML 
